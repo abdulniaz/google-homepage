@@ -1,0 +1,191 @@
+*{
+  font-family: Helvetica, 'sans-serif';
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  font-size: 18px;
+  border: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  padding-top: 14px;
+  padding-right: 28px;
+  padding-left: 15px;
+}
+
+.topright {
+  float: right;
+}
+
+.navleft {
+  padding-top: 14px;
+  color: rgba( 0, 0, 0, 0.77);
+  vertical-align: sub;
+}
+
+.navleft:hover{
+  text-decoration: underline;
+}
+
+.topright a:hover {
+  text-decoration: underline;
+  color: rgba (0, 0, 0, 0.67);
+}
+
+.centerblock {
+  margin:auto;
+  width: 550px;
+  padding-top: 160px;
+}
+
+.topright li {
+  padding-right: 10px;
+  padding-left: 6px;
+}
+
+.buttons {
+  display:inline;
+  margin: 15px 3px;
+  height: 40px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  font-size: small;
+  font-weight: bold;
+  color: #757575
+  line-height: 0;
+  padding: 14px;
+}
+
+.searchbuttons {
+  margin-left: 25%;
+}
+
+.buttons:hover {
+  border: 1px solid #b4b6ba;
+  color: black;
+}
+
+.buttons:focus {
+  outline: none;
+}
+
+.BottomNav {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 14px 6px 12px;
+  display: inline-block;
+}
+
+.BottomNav a:hover {
+  text-decoration: underline;
+}
+
+.BottomLeft {
+  float:right;
+  margin: 0;
+  padding-right: 28px;
+  display: inline-block;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#mic {
+  position: relative;
+  height: 20px;
+  left: -2px;
+  vertical-align: middle;
+}
+
+#searchbox {
+  border: 1px;
+  border-color: #f2f2f2;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#searchbox:hover {
+  border: 2px;
+  border-color: grey;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#apps-icon {
+  height: 16px;
+  vertical-align: middle;
+  opacity: 0.6;
+  padding-right: 5px;
+}
+
+#apps-icon:hover{
+opacity: 1.0;
+}
+#a-logo{
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: auto;
+  line-height: 10px;
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+
+}
+
+#a-logo:active {
+  background: hsla(218, 83%, 50% 1);
+}
+
+#alternative-languages {
+  text-align: center;
+}
+
+.French {
+  color: blue;
+}
+
+.Spanish {
+  color: blue;
+}
+
+.Italian {
+  color: blue;
+}
